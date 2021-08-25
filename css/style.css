@@ -1,0 +1,729 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html body .container {
+  margin: 0;
+  padding: 0;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html body .container .home {
+  background-image: url("../img/section_one_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 42rem;
+  width: 100%;
+}
+
+html body .container .home .navbar {
+  z-index: 9999;
+  background-color: transparent !important;
+  -webkit-transition: o 0.3s linear;
+  transition: o 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+
+html body .container .home .navbar .navbar-brand {
+  letter-spacing: 0.8px;
+  font-size: 1.7rem;
+  color: yellow !important;
+  padding-left: 6rem;
+}
+
+html body .container .home .navbar-nav {
+  margin-left: 7rem;
+}
+
+html body .container .home .navbar-nav li {
+  font-size: 1.2rem;
+  margin: 15px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+html body .container .home .navbar-nav li .nav-link {
+  color: white !important;
+}
+
+html body .container .home .navbar-nav li .nav-link:hover {
+  color: yellow !important;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+html body .container .home .fixed {
+  background-color: #000000db !important;
+}
+
+html body .container .home .logotib {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body .container .home .logotib .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 30rem;
+}
+
+html body .container .home .logotib .center .h1 {
+  color: white;
+  font-size: 100px;
+  margin: 20px;
+  letter-spacing: 5px;
+  padding: 0;
+}
+
+html body .container .home .logotib .center .h4 {
+  color: darkcyan;
+  font-size: 27px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 10px;
+}
+
+html body .container .home .logotib .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 3rem;
+}
+
+html body .container .home .logotib .bottom h1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+html body .container .home .logotib .bottom i {
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
+
+html body .container .fatures {
+  background-color: darkcyan;
+}
+
+html body .container .fatures .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 40px 50px;
+}
+
+html body .container .fatures .boxes h1 {
+  margin: 0;
+  font-size: 35px;
+  padding: 30px 250px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+html body .container .fatures .boxes h1::before {
+  content: 'W';
+  position: absolute;
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 150px;
+}
+
+html body .container .fatures .boxes .box {
+  width: 20%;
+  margin: 50px 20px;
+  text-align: center;
+}
+
+html body .container .fatures .boxes .box i {
+  color: white;
+  padding: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+html body .container .fatures .boxes .box p {
+  font-size: 20px;
+  color: white;
+}
+
+html body .container .pages .boxes {
+  width: 100%;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .container .pages .boxes .box {
+  font-size: 10px;
+  width: 50%;
+}
+
+html body .container .pages .boxes .box1 {
+  background-color: black;
+  color: white;
+  padding: 5%;
+  height: 21rem;
+}
+
+html body .container .pages .boxes .box1 h5 {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+
+html body .container .pages .boxes .box1 h1 {
+  margin: 0px;
+  font-size: 30px;
+  color: white;
+}
+
+html body .container .pages .boxes .box1 p {
+  font-size: 15px;
+}
+
+html body .container .pages .boxes .box2 {
+  width: 50%;
+  height: 21rem;
+}
+
+html body .container .pages .boxes .box2 img {
+  width: 100%;
+  height: 100%;
+}
+
+html body .container .pages .boxes .box3 {
+  width: 50%;
+  height: 21rem;
+}
+
+html body .container .pages .boxes .box3 img {
+  width: 100%;
+  height: 100%;
+}
+
+html body .container .pages .boxes .box4 {
+  background-color: white;
+  color: black;
+  padding: 5%;
+  height: 21rem;
+}
+
+html body .container .pages .boxes .box4 h5 {
+  font-size: 20px;
+  color: black;
+  margin: 10px;
+}
+
+html body .container .pages .boxes .box4 h1 {
+  margin: 0px;
+  font-size: 30px;
+  color: black;
+}
+
+html body .container .pages .boxes .box4 p {
+  font-size: 15px;
+}
+
+html body .container .extension {
+  width: 100%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body .container .extension .boxes {
+  height: 25vh;
+}
+
+html body .container .extension .boxes h1 {
+  margin: 0;
+  font-size: 35px;
+  margin: 30px 250px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  z-index: 1;
+}
+
+html body .container .extension .boxes h1::before {
+  content: 'B';
+  position: absolute;
+  color: #818181;
+  z-index: -1;
+  font-size: 150px;
+}
+
+html body .container .extension .boxes h1:hover::before {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html body .container .extension h2 {
+  font-size: 25px;
+  color: darkcyan;
+}
+
+html body .container .extension .boxes1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .container .extension .boxes1 .box {
+  width: 25%;
+  margin: 0 20px;
+}
+
+html body .container .extension .boxes1 .box img {
+  width: 100%;
+}
+
+html body .container .extension .boxes1 .box h1 {
+  font-weight: bold;
+  color: darkcyan;
+  font-size: 20px;
+  text-align: center;
+}
+
+html body .container .extension .boxes1 .box p {
+  text-align: center;
+  font-size: 15px;
+}
+
+html body .container .tutorials {
+  width: 100%;
+}
+
+html body .container .tutorials .boxes {
+  background-color: darkcyan;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 150px;
+}
+
+html body .container .tutorials .boxes .box {
+  height: 12.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 0 20px;
+}
+
+html body .container .tutorials .boxes .box p {
+  width: 100%;
+}
+
+html body .container .tutorials .boxes i {
+  width: 15%;
+}
+
+html body .container .tutorials .boxes1 {
+  width: 100%;
+  background-image: url("../img/workplace.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .container .tutorials .boxes1 .left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 150px;
+}
+
+html body .container .tutorials .boxes1 .left h1 {
+  color: white;
+}
+
+html body .container .tutorials .boxes1 .left p {
+  color: white;
+}
+
+html body .container .tutorials .boxes1 .left .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+html body .container .tutorials .boxes1 .left .btn .btn1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+}
+
+html body .container .tutorials .boxes1 .left .btn .btn1:hover {
+  color: darkcyan;
+  background-color: white;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html body .container .tutorials .boxes1 .left .btn .btn2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 85px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+html body .container .tutorials .boxes1 .left .btn .btn2:hover {
+  color: darkcyan;
+  background-color: white;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html body .container .tutorials .boxes1 .left .btn .btn3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 45px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+html body .container .tutorials .boxes1 .left .btn .btn3:hover {
+  color: darkcyan;
+  background-color: white;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html body .container .tutorials .boxes1 .right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .container .tutorials .boxes1 .right img {
+  width: 50%;
+}
+
+html body .container .boxes2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body .container .boxes2 h1 {
+  margin: 0;
+  margin-top: 75px;
+  font-size: 35px;
+  padding: 30px 250px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  z-index: 1;
+}
+
+html body .container .boxes2 h1::before {
+  content: 'T';
+  position: absolute;
+  color: #818181;
+  z-index: -1;
+  font-size: 150px;
+}
+
+html body .container .boxes2 h1:hover::before {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html body .container .boxes2 .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+html body .container .boxes2 .boxes .box {
+  padding: 20px;
+}
+
+html body .container .boxes2 .boxes .box img {
+  z-index: 1;
+}
+
+html body .container .boxes2 .boxes .box .quti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 2;
+  background-color: white;
+}
+
+html body .container .contack {
+  background-image: url("../img/forms-bg.jpg");
+}
+
+html body .container .contack h2 {
+  margin: 0;
+  font-size: 35px;
+  padding: 30px 250px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+html body .container .contack h2::before {
+  content: 'C';
+  position: absolute;
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 150px;
+}
+
+html body .container .contack .quti {
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+html body .container .contack .quti input {
+  width: 24%;
+  height: 3.5rem;
+  margin: 0 28px;
+}
+
+html body .container .contack .quti1 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .container .contack .quti1 input {
+  width: 80%;
+  height: 10rem;
+}
+
+html body .container .contack img {
+  margin-top: 150px;
+}
+/*# sourceMappingURL=style.css.map */

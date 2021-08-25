@@ -1,0 +1,1423 @@
+@media (max-width: 1000px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-brand{
+        font-size: 1.3rem!important;
+        padding: 0!important;
+    }
+    .navbar-nav{
+        margin: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .navbar-nav .nav-link{
+        font-size: 24px;
+    }
+    .home .logotib .h1{
+        margin-top: 200px!important;
+        font-size: 45px!important;
+        margin: 10px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .home .logotib .center .h4{
+        color: darkcyan;
+        font-size: 16px!important;
+        padding: 0!important;
+        margin-bottom: 75px!important;
+        letter-spacing: 6px!important;
+        text-align: center!important;
+    }
+    .home .logotib .bottom h1{
+        font-size: 17px!important;
+        color: white;
+        margin-top: 250px;
+    }
+    .home .logotib .bottom i{
+        margin-bottom: 200px;
+    }
+    html body .container .fatures .boxes h1{
+        margin: 0;
+        font-size: 20px;
+        padding: 30px 275px;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    .container .fatures .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .fatures .boxes .box{
+        margin: 50px 0px!important;
+        width: 50%!important;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        width: 100%!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .pages .boxes .box1{
+        width: 50% !important;
+    }
+    .container .pages .boxes .box2{
+        width: 50%!important;
+    }
+    .container .pages .boxes .box3{
+        width: 50%!important;
+    }
+    .container .pages .boxes .box4{
+        width: 50%!important;
+    }
+    .container .extension .boxes1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container .extension .boxes1 .box{
+        width: 50%!important;
+        margin: 0!important;
+    }
+    .container .extension .boxes{
+        height: 15vh!important;
+    }
+    .container .extension .boxes h1{
+        margin: 0!important;
+        font-size: 22px!important;
+    }
+    .container .extension .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .extension h2{
+        font-size: 26px!important;
+        text-align: center;
+    }
+    .container .extension .boxes1 .box p {
+        width: 85%;
+        font-size: 18px!important;
+    }
+    .container .extension .boxes1 .box img{
+        width: 93%!important;
+    }
+    .container .extension .boxes1 .box h1 {
+        font-size: 27px!important;
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+        /* margin-top: 100px; */
+    }
+    .container .tutorials .boxes{
+        padding: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes .box p{
+        font-size: 14px;
+        padding: 0!important;
+    }
+    .container .tutorials .boxes1{
+        padding: 20px 10px;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes1 .left{
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .container .tutorials .boxes1 .left h1{
+        font-size: 28px!important;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .container .tutorials .boxes1 .left p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn1{
+        font-size: 17px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn2{
+        font-size: 17px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn3{
+        font-size: 17px;
+    }
+    .container .tutorials .boxes1 .right img{
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .container .boxes2 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .boxes2 h1{
+        padding: 30px 0!important;
+        font-size: 25px!important;
+        margin-top: 0!important;
+    }
+    .container .boxes2 h1::before{
+        font-size: 125px!important;
+    }
+    .container .contack h2{
+        font-size: 18px!important;
+        padding: 30px 0px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .container .contack h2::before{
+        font-size: 100px;
+    }
+    .container .contack .quti{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 15%!important;
+    }
+    .contack .quti input{
+        width: 85%!important;
+        margin-top: 10px!important;
+    }
+    .contack .quti1 input{
+        height: 7rem!important;
+        width: 85%!important;
+    }
+}
+
+@media (max-width: 875px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-brand{
+        font-size: 1.3rem!important;
+        padding: 0!important;
+    }
+    .navbar-nav{
+        margin: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .home .logotib .h1{
+        margin-top: 200px!important;
+        font-size: 45px!important;
+        margin: 10px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .home .logotib .center .h4{
+        color: darkcyan;
+        font-size: 16px!important;
+        padding: 0!important;
+        margin-bottom: 75px!important;
+        letter-spacing: 6px!important;
+        text-align: center!important;
+    }
+    .home .logotib .bottom h1{
+        font-size: 17px!important;
+        color: white;
+        margin-top: 250px;
+    }
+    .home .logotib .bottom i{
+        margin-bottom: 200px;
+    }
+    html body .container .fatures .boxes h1{
+        margin: 0;
+        font-size: 20px;
+        padding: 30px 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    .container .fatures .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .fatures .boxes .box{
+        margin: 50px 0px!important;
+        width: 100%!important;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes .box1{
+        width: 100% !important;
+    }
+    .container .pages .boxes .box2{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box3{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box4{
+        width: 100%!important;
+    }
+    .container .extension .boxes1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container .extension .boxes1 .box{
+        width: 50%!important;
+        margin: 0!important;
+    }
+    .container .extension .boxes{
+        height: 15vh!important;
+    }
+    .container .extension .boxes h1{
+        margin: 0!important;
+        font-size: 22px!important;
+    }
+    .container .extension .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .extension h2{
+        font-size: 26px!important;
+        text-align: center;
+    }
+    .container .extension .boxes1 .box p {
+        width: 85%;
+        font-size: 18px!important;
+    }
+    .container .extension .boxes1 .box img{
+        width: 93%!important;
+    }
+    .container .extension .boxes1 .box h1 {
+        font-size: 27px!important;
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+        /* margin-top: 100px; */
+    }
+    .container .tutorials .boxes{
+        padding: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes .box p{
+        font-size: 14px;
+        padding: 0!important;
+    }
+    .container .tutorials .boxes1{
+        padding: 20px 10px;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes1 .left{
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .container .tutorials .boxes1 .left h1{
+        font-size: 28px!important;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .container .tutorials .boxes1 .left p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn1{
+        font-size: 17px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn2{
+        font-size: 17px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn3{
+        font-size: 17px;
+    }
+    .container .tutorials .boxes1 .right img{
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .container .boxes2 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container .boxes2 h1{
+        padding: 30px 0!important;
+        font-size: 25px!important;
+        margin-top: 0!important;
+    }
+    .container .boxes2 h1::before{
+        font-size: 125px!important;
+    }
+    .container .contack h2{
+        font-size: 18px!important;
+        padding: 30px 0px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .container .contack h2::before{
+        font-size: 100px;
+    }
+    .container .contack .quti{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 15%!important;
+    }
+    .contack .quti input{
+        width: 85%!important;
+        margin-top: 10px!important;
+    }
+    .contack .quti1 input{
+        height: 7rem!important;
+        width: 85%!important;
+    }
+}
+
+@media (max-width: 725px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-brand{
+        font-size: 1.3rem!important;
+        padding: 0!important;
+    }
+    .navbar-nav{
+        margin: 0!important;
+    }
+    .home .logotib .h1{
+        font-size: 45px!important;
+        margin: 10px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .home .logotib .center .h4{
+        color: darkcyan;
+        font-size: 16px!important;
+        padding: 0!important;
+        margin-bottom: 75px!important;
+        letter-spacing: 6px!important;
+        text-align: center!important;
+    }
+    .home .logotib .bottom h1{
+        font-size: 17px!important;
+        color: white;
+        margin-top: 100px;
+    }
+    .home .logotib .bottom i{
+        margin-bottom: 200px;
+    }
+    html body .container .fatures .boxes h1{
+        margin: 0;
+        font-size: 20px;
+        padding: 30px 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    .container .fatures .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .fatures .boxes .box{
+        margin: 50px 0px!important;
+        width: 100%!important;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes .box1{
+        width: 100% !important;
+    }
+    .container .pages .boxes .box2{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box3{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box4{
+        width: 100%!important;
+    }
+    .container .extension .boxes1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container .extension .boxes1 .box{
+        width: 50%!important;
+        margin: 0!important;
+    }
+    .container .extension .boxes{
+        height: 15vh;
+    }
+    .container .extension .boxes h1{
+        margin: 0!important;
+        font-size: 22px!important;
+    }
+    .container .extension .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .extension h2{
+        font-size: 17px!important;
+        text-align: center;
+    }
+    .container .extension .boxes1 .box p {
+        width: 85%;
+    }
+    .container .extension .boxes1 .box img{
+        width: 93%!important;
+    }
+    .container .extension .boxes1 .box h1 {
+        font-size: 20px!important;
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+    }
+    .container .tutorials .boxes{
+        padding: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes .box p{
+        font-size: 14px;
+        padding: 0!important;
+    }
+    .container .tutorials .boxes1{
+        padding: 20px 10px;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes1 .left{
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .container .tutorials .boxes1 .left h1{
+        font-size: 18px;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .container .tutorials .boxes1 .left p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn1{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn2{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn3{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .right img{
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .container .boxes2 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container .boxes2 h1{
+        padding: 30px 0!important;
+        font-size: 20px!important;
+        margin-top: 0!important;
+    }
+    .container .boxes2 h1::before{
+        font-size: 100px!important;
+    }
+    .container .contack h2{
+        font-size: 18px!important;
+        padding: 30px 0px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .container .contack h2::before{
+        font-size: 100px;
+    }
+    .container .contack .quti{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 15%!important;
+    }
+    .contack .quti input{
+        width: 85%!important;
+        margin-top: 10px!important;
+    }
+    .contack .quti1 input{
+        height: 5rem!important;
+        text-align: center;
+        width: 85%!important;
+    }
+}
+
+@media (max-width: 600px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-brand{
+        font-size: 1.3rem!important;
+        padding: 0!important;
+    }
+    .navbar-nav{
+        margin: 0!important;
+    }
+    .home .logotib .h1{
+        font-size: 45px!important;
+        margin: 10px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .home .logotib .center .h4{
+        color: darkcyan;
+        font-size: 16px!important;
+        padding: 0!important;
+        margin-bottom: 75px!important;
+        letter-spacing: 6px!important;
+        text-align: center!important;
+    }
+    .home .logotib .bottom h1{
+        font-size: 17px!important;
+        color: white;
+        margin-top: 100px;
+    }
+    .home .logotib .bottom i{
+        margin-bottom: 200px;
+    }
+    html body .container .fatures .boxes h1{
+        margin: 0;
+        font-size: 20px;
+        padding: 30px 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    .container .fatures .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .fatures .boxes .box{
+        margin: 50px 0px!important;
+        width: 100%!important;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes .box1{
+        width: 100% !important;
+    }
+    .container .pages .boxes .box2{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box3{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box4{
+        width: 100%!important;
+    }
+    .container .extension .boxes1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .extension .boxes1 .box{
+        width: 100%!important;
+    }
+    .container .extension .boxes{
+        height: 15vh;
+    }
+    .container .extension .boxes h1{
+        margin: 0!important;
+        font-size: 22px!important;
+    }
+    .container .extension .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .extension h2{
+        font-size: 17px!important;
+        text-align: center;
+    }
+    .container .extension .boxes1 .box p {
+        width: 85%;
+    }
+    .container .extension .boxes1 .box img{
+        width: 93%!important;
+    }
+    .container .extension .boxes1 .box h1 {
+        font-size: 20px!important;
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+        margin-top: 100px;
+    }
+    .container .tutorials .boxes{
+        padding: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes .box p{
+        font-size: 14px;
+        padding: 0!important;
+    }
+    .container .tutorials .boxes1{
+        padding: 20px 10px;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes1 .left{
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .container .tutorials .boxes1 .left h1{
+        font-size: 18px;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .container .tutorials .boxes1 .left p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn1{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn2{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn3{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .right img{
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .container .boxes2 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container .boxes2 h1{
+        padding: 30px 0!important;
+        font-size: 20px!important;
+        margin-top: 0!important;
+    }
+    .container .boxes2 h1::before{
+        font-size: 100px!important;
+    }
+    .container .contack h2{
+        font-size: 18px!important;
+        padding: 30px 0px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .container .contack h2::before{
+        font-size: 100px;
+    }
+    .container .contack .quti{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 15%!important;
+    }
+    .contack .quti input{
+        width: 85%!important;
+        margin-top: 10px!important;
+    }
+    .contack .quti1 input{
+        height: 5rem!important;
+        text-align: center;
+        width: 85%!important;
+    }
+}
+
+@media (max-width: 500px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-brand{
+        font-size: 1.3rem!important;
+        padding: 0!important;
+    }
+    .navbar-nav{
+        margin: 0!important;
+    }
+    .home .logotib .h1{
+        font-size: 45px!important;
+        margin: 10px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .home .logotib .center .h4{
+        color: darkcyan;
+        font-size: 16px!important;
+        padding: 0!important;
+        margin-bottom: 75px!important;
+        letter-spacing: 6px!important;
+        text-align: center!important;
+    }
+    .home .logotib .bottom h1{
+        font-size: 17px!important;
+        color: white;
+        margin-top: 100px;
+    }
+    .home .logotib .bottom i{
+        margin-bottom: 200px;
+    }
+    html body .container .fatures .boxes h1{
+        margin: 0;
+        font-size: 15px;
+        padding: 30px 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    .container .fatures .boxes h1::before{
+        font-size: 70px!important;
+    }
+    .container .fatures .boxes .box{
+        margin: 50px 0px!important;
+        width: 100%!important;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes .box1{
+        width: 100% !important;
+    }
+    .container .pages .boxes .box2{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box3{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box4{
+        width: 100%!important;
+    }
+    .container .extension .boxes1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .extension .boxes1 .box{
+        width: 100%!important;
+    }
+    .container .extension .boxes{
+        height: 15vh;
+    }
+    .container .extension .boxes h1{
+        margin: 0!important;
+        font-size: 22px!important;
+    }
+    .container .extension .boxes h1::before{
+        font-size: 100px!important;
+    }
+    .container .extension h2{
+        font-size: 17px!important;
+        text-align: center;
+    }
+    .container .extension .boxes1 .box p {
+        width: 85%;
+    }
+    .container .extension .boxes1 .box img{
+        width: 85%!important;
+    }
+    .container .extension .boxes1 .box h1 {
+        font-size: 20px!important;
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+    }
+    .container .tutorials .boxes{
+        padding: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes .box p{
+        font-size: 14px;
+        padding: 0!important;
+    }
+    .container .tutorials .boxes1{
+        padding: 20px 10px;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes1 .left{
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .container .tutorials .boxes1 .left h1{
+        font-size: 18px;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .container .tutorials .boxes1 .left p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn1{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn2{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn3{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .right img{
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .container .boxes2 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container .boxes2 h1{
+        padding: 30px 0!important;
+        font-size: 20px!important;
+        margin-top: 0!important;
+    }
+    .container .boxes2 h1::before{
+        font-size: 100px!important;
+    }
+    .container .contack h2{
+        font-size: 18px!important;
+        padding: 30px 0px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .container .contack h2::before{
+        font-size: 100px;
+    }
+    .container .contack .quti{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 15%!important;
+    }
+    .contack .quti input{
+        width: 85%!important;
+        margin-top: 10px!important;
+    }
+    .contack .quti1 input{
+        height: 5rem!important;
+        text-align: center;
+        width: 85%!important;
+    }
+}
+
+@media (max-width: 420px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-brand{
+        font-size: 1.3rem!important;
+        padding: 0!important;
+    }
+    .navbar-nav{
+        margin: 0!important;
+    }
+    .home .logotib .h1{
+        font-size: 45px!important;
+        margin: 10px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .home .logotib .center .h4{
+        color: darkcyan;
+        font-size: 16px!important;
+        padding: 0!important;
+        margin-bottom: 75px!important;
+        letter-spacing: 6px!important;
+        text-align: center!important;
+    }
+    .home .logotib .bottom h1{
+        font-size: 17px!important;
+        color: white;
+    }
+    .home .logotib .bottom i{
+        margin-bottom: 200px;
+    }
+    html body .container .fatures .boxes h1{
+        margin: 0;
+        font-size: 15px;
+        padding: 30px 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    .container .fatures .boxes h1::before{
+        font-size: 70px!important;
+    }
+    .container .fatures .boxes .box{
+        margin: 50px 0px!important;
+        width: 100%!important;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes .box1{
+        width: 100% !important;
+    }
+    .container .pages .boxes .box2{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box3{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box4{
+        width: 100%!important;
+    }
+    .container .extension .boxes1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .extension .boxes1 .box{
+        width: 100%!important;
+    }
+    .container .extension .boxes{
+        height: 15vh;
+    }
+    .container .extension .boxes h1{
+        margin: 0!important;
+        font-size: 17px!important;
+    }
+    .container .extension .boxes h1::before{
+        font-size: 75px!important;
+    }
+    .container .extension h2{
+        font-size: 17px!important;
+        text-align: center;
+    }
+    .container .extension .boxes1 .box p {
+        width: 85%;
+    }
+    .container .extension .boxes1 .box img{
+        width: 85%!important;
+    }
+    .container .extension .boxes1 .box h1 {
+        font-size: 15px!important;
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+    }
+    .container .tutorials .boxes{
+        padding: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes .box p{
+        font-size: 14px;
+        padding: 0!important;
+    }
+    .container .tutorials .boxes1{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes1 .left{
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .container .tutorials .boxes1 .left h1{
+        font-size: 18px;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .container .tutorials .boxes1 .left p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn1{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn2{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn3{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .right img{
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .container .boxes2 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container .boxes2 h1{
+        padding: 30px 0!important;
+        font-size: 20px!important;
+        margin-top: 0!important;
+    }
+    .container .boxes2 h1::before{
+        font-size: 75px!important;
+    }
+    .container .contack h2{
+        font-size: 18px!important;
+        padding: 30px 0px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .container .contack h2::before{
+        font-size: 100px;
+    }
+    .container .contack .quti{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 15%!important;
+    }
+    .contack .quti input{
+        width: 85%!important;
+        margin-top: 10px!important;
+    }
+    .contack .quti1 input{
+        height: 5rem!important;
+        text-align: center;
+        width: 85%!important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-brand{
+        font-size: 1.3rem!important;
+        padding: 0!important;
+    }
+    .navbar-nav{
+        margin: 0!important;
+    }
+    .home .logotib .h1{
+        font-size: 45px!important;
+        margin: 10px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .home .logotib .center .h4{
+        color: darkcyan;
+        font-size: 16px!important;
+        padding: 0!important;
+        margin-bottom: 75px!important;
+        letter-spacing: 6px!important;
+        text-align: center!important;
+    }
+    .home .logotib .bottom h1{
+        font-size: 17px!important;
+        color: white;
+    }
+    .home .logotib .bottom i{
+        margin-bottom: 200px;
+    }
+    html body .container .fatures .boxes h1{
+        margin: 0;
+        font-size: 15px;
+        padding: 30px 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    .container .fatures .boxes h1::before{
+        font-size: 70px!important;
+    }
+    .container .fatures .boxes .box{
+        margin: 50px 0px!important;
+        width: 100%!important;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .pages .boxes .box1{
+        width: 100% !important;
+    }
+    .container .pages .boxes .box2{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box3{
+        width: 100%!important;
+    }
+    .container .pages .boxes .box4{
+        width: 100%!important;
+    }
+    .container .extension .boxes1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .extension .boxes1 .box{
+        width: 100%!important;
+    }
+    .container .extension .boxes{
+        height: 15vh;
+    }
+    .container .extension .boxes h1{
+        margin: 0!important;
+        font-size: 17px!important;
+    }
+    .container .extension .boxes h1::before{
+        font-size: 75px!important;
+    }
+    .container .extension h2{
+        font-size: 17px!important;
+        text-align: center;
+    }
+    .container .extension .boxes1 .box p {
+        width: 85%;
+    }
+    .container .extension .boxes1 .box img{
+        width: 85%!important;
+    }
+    .container .extension .boxes1 .box h1 {
+        font-size: 15px!important;
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+    }
+    .container .tutorials .boxes{
+        padding: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes .box p{
+        font-size: 14px;
+        padding: 0!important;
+    }
+    .container .tutorials .boxes1{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .container .tutorials .boxes1 .left{
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .container .tutorials .boxes1 .left h1{
+        font-size: 18px;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .container .tutorials .boxes1 .left p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn1{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn2{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .left .btn .btn3{
+        font-size: 13px;
+    }
+    .container .tutorials .boxes1 .right img{
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .container .boxes2 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container .boxes2 h1{
+        padding: 30px 0!important;
+        font-size: 20px!important;
+        margin-top: 0!important;
+    }
+    .container .boxes2 h1::before{
+        font-size: 75px!important;
+    }
+    .container .contack h2{
+        font-size: 18px!important;
+        padding: 30px 0px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .container .contack h2::before{
+        font-size: 100px;
+    }
+    .container .contack .quti{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 15%!important;
+    }
+    .contack .quti input{
+        width: 85%!important;
+        margin-top: 10px!important;
+    }
+    .contack .quti1 input{
+        height: 5rem!important;
+        text-align: center;
+        width: 85%!important;
+    }
+}
